@@ -31,9 +31,38 @@ button {
 }
 
 .container {
-    max-width: 375px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
