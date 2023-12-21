@@ -21,8 +21,15 @@
     <picture>
       <source
         srcset="
-          ./img/about_us/about-us-desktop.jpg    1x,
-          ../img/about_us/about-us-desktop@2.jpg 2x
+          ./img/about_us/about-us-desktop-1440.jpg   1x,
+          ./img/about_us/about-us-desktop-1440@2.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/about_us/about-us-desktop.jpg   1x,
+          ./img/about_us/about-us-desktop@2.jpg 2x
         "
         media="(min-width: 1280px)"
       />
@@ -33,7 +40,14 @@
         "
         media="(min-width: 768px)"
       />
-      <source srcset="" media="(max-width: 375px)" />
+      <source
+        srcset="
+          ./img/about_us/about-us-mobil.jpg   1x,
+          ./img/about_us/about-us-mobil@2.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img src="./img/about_us/about-us-mobil.jpg" alt="Yacht image" />
     </picture>
   </div>
 </section>
