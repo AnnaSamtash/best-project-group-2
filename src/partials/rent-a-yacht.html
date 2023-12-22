@@ -1,0 +1,75 @@
+<section class="rent-yacht section">
+  <div class="rent-yacht-container container">
+  <h2 class="rent-yacht-title section-title">Rent a yacht now</h2>
+        <form class="rent-yacht-form">
+          <div class="rent-yacht-form-field-wrapper">
+            <label class="rent-yacht-form-field-label visually-hidden" for="user-name">Full Name</label>
+            <div class="rent-yacht-form-input-wrapper">
+              <input
+                class="rent-yacht-form-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                title="Oleksii"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="rent-yacht-form-field-wrapper">
+            <label class="rent-yacht-form-field-label visually-hidden" for="user-email"
+              >Email</label
+            >
+            <div class="rent-yacht-form-input-wrapper">
+              <input
+                class="rent-yacht-form-input"
+                id="user-email"
+                name="user-email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="rent-yacht-form-field-wrapper">
+            <label class="rent-yacht-form-field-label visually-hidden" for="user-tel">Phone</label>
+            <div class="rent-yacht-form-input-wrapper">
+              <input
+                class="rent-yacht-form-input"
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                placeholder="Phone"
+                required
+              />
+            </div>
+          </div>
+          <div class="rent-yacht-form-field-wrapper-comment">
+            <label class="rent-yacht-form-field-label visually-hidden" for="user-comment"
+              >Comment</label
+            ><textarea
+              class="rent-yacht-form-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Comment"
+              required
+            ></textarea>
+          </div>
+          <button class="rent-yacht-form-submit-btn button" type="submit">
+            Send
+          </button>
+          </div>
+          <div class="rent-yacht-img-container container">
+          <picture>
+            <source srcset="../img/rent_a_yacht/rent-desktop1440.jpg 1x, ../img/rent_a_yacht/rent-desktop1440@2.jpg 2x" media="(min-width:1440px)" />
+            <source srcset="../img/rent_a_yacht/rent-desktop.jpg 1x, ../img/rent_a_yacht/rent-desktop@2.jpg 2x" media="(min-width:1280px)" />
+            <source srcset="../img/rent_a_yacht/rent-tablet.jpg 1x, ../img/rent_a_yacht/rent-tablet@2.jpg 2x" media="(min-width:768px)" />
+            <source srcset="../img/rent_a_yacht/rent-mobil.jpg 1x, ../img/rent_a_yacht/rent-mobil@2.jpg 2x" media="(max-width:767px)" />
+          <img 
+          class="rent-yacht-img" src="../img/rent_a_yacht/rent-desktop1440.jpg" alt="Our rent yacht"/> 
+          </picture>
+          </div>        
+</section>
