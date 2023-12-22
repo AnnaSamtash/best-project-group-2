@@ -1,0 +1,242 @@
+/* @media screen and (min-width: 768px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 768px;
+    }
+} */
+
+@media screen and (max-width: 767px) {
+.benetti-oasis-card,
+.belle-anna-card {
+    display: none;
+}
+
+}
+.our-yachts-section-title {
+        /*TYPOGRAPHY*/
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    max-width: 319px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .our-yachts-section-title {
+        font-size: 48px;
+        max-width: 645px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .our-yachts-section-title {
+        max-width: 714px;
+    }
+}
+.our-yahts-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
+    .our-yahts-list {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 32px;
+}
+}
+
+.our-yahts-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding: 16px 16px 32px 16px;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+    .our-yahts-card {
+        width: calc((100% - 32px)/2);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .our-yahts-list {
+        gap: 25px;
+    }
+    .our-yahts-card {
+        width: calc((100% - 50px)/3)
+    }
+}
+
+/* .yaht-description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+} */
+.yacht-name {
+        color: #1B414B;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.18;
+        /* 16.52px */
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        justify-content: flex-start;
+        gap: 16px 125px;
+        display: flex;
+        position: relative;
+        /* padding-left: 16px;
+        padding-right: 16px;        */
+        margin: 0 auto;
+    }
+@media screen and (min-width: 768px) {
+    .yacht-name {
+        gap: 16px 112px;
+        font-size: 16px;        
+    }
+    .benetti-card {
+        justify-content: flex-start;
+        gap: 16px 22px;
+        display: flex;
+            
+    }
+    .benetti-card-overflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 147px;
+        
+
+    }
+}
+.yacht-name:after {
+    color: rgba(4, 3, 6, 0.10);
+    background-color: rgba(4, 3, 6, 0.10);
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom:-16px;
+    height: 1px;
+    
+}
+
+.yacht-class {
+    color: #040306;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    opacity: 0.4;
+    text-align: end;
+}
+@media screen and (min-width: 768px) {
+    .yacht-class {
+        font-size: 13px;
+    }
+  
+}
+.yacht-params {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6px 114px;
+    margin: 0 auto;
+    /* white-space: nowrap; */
+    
+    
+       
+}
+@media screen and (min-width: 768px) {
+    .yacht-params {
+        gap: 6px 116px;
+    }
+    .benetti-params {
+        gap: 6px 104px;
+    }
+}
+
+.yacht-params-names {
+    
+    
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+/* @media screen and (min-width: 768px) {
+    .yacht-params-names {
+        color: #040306;
+        
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.18;
+           
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+    }
+    .yacht-params-values {
+        color: #040306;
+        
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.18;
+            
+            letter-spacing: 0.03em;
+    }
+} */
+.yacht-params-values {
+        
+}
+
+.yaht-rental-link-button {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    display: block;
+    justify-content: flex-start;
+    padding: 14px 32px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    background-color: inherit;
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .benetti-oasis-card,
+    .belle-anna-card {
+        display: none;
+    }
+
+} 
+
+@media screen and (max-width: 1199px) {
+    .belle-anna-card {
+        display: none;
+    }
+}
