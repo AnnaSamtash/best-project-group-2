@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.adavatages-list {
+.advantages-list {
   background-color: #1b414b;
   border-radius: 24px;
 }
@@ -33,6 +33,9 @@
   border-radius: 18px;
   background-color: #fbfbfb1a;
 }
+.advatages-image {
+  border-radius: 18px;
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     max-width: 375px;
@@ -42,16 +45,16 @@
   .section {
     padding-bottom: 80px;
   }
-  .adavatages-list {
+  .advantages-list {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap: 40px;
+    margin-bottom: 20px;
   }
 
-  .adavatages-list-item {
-    gap: 40px;
+  .advatages-list-item {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -80,6 +83,31 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 44px 32px;
+    margin-bottom: 32px;
+  }
+
+  .advantages-number {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .advantages-descreption {
+    font-size: 13px;
+    line-height: 14.95px;
+    width: 292px;
+  }
+  .current::after {
+    width: 304px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .container {
@@ -91,9 +119,69 @@
   .container {
     max-width: 1280px;
   }
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 716px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 44px 32px;
+  }
+
+  .advantages-number {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .advantages-descreption {
+    font-size: 13px;
+    line-height: 14.95px;
+    width: 292px;
+  }
+  .current::after {
+    width: 280px;
+  }
+  .advantages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+  }
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 768px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 44px 32px;
+  }
+
+  .advantages-number {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .advantages-descreption {
+    font-size: 13px;
+    line-height: 14.95px;
+    width: 292px;
+  }
+  .current::after {
+    width: 318px;
+  }
+  .advantages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
   }
 }

@@ -1,27 +1,27 @@
 <section class="advantages">
-  <div class="container">
-    <div class="adavatages-list">
-      <ul class="adavatages-list">
-        <li class="adavatages-list-item">
+  <div class="container advantages-container">
+    <div class="advatages-list-div">
+      <ul class="advantages-list">
+        <li class="advatages-list-item">
           <h3 class="advantages-number current">01</h3>
           <p class="advantages-descreption">
             Swimming and water sports: try your hand at water skiing
           </p>
         </li>
-        <li class="adavatages-list-item">
+        <li class="advatages-list-item">
           <h3 class="advantages-number current">02</h3>
           <p class="advantages-descreption">
             Fishing: try to catch your own dinner
           </p>
         </li>
-        <li class="adavatages-list-item">
+        <li class="advatages-list-item">
           <h3 class="advantages-number current">03</h3>
           <p class="advantages-descreption">
             Sightseeing tours: take a shore or island tour, enjoy the views and
             sunsets from the water
           </p>
         </li>
-        <li class="adavatages-list-item">
+        <li class="advatages-list-item">
           <h3 class="advantages-number current">04</h3>
           <p class="advantages-descreption">
             Rest and relaxation: read a book or listen to music while enjoying
@@ -30,6 +30,41 @@
         </li>
       </ul>
     </div>
-    <img src="" alt="" />
+    <picture>
+      <source
+        srcset="
+          ../img/advantages/advantages-mobil.jpg   1x,
+          ../img/advantages/advantages-mobil@2.jpg 2x
+        "
+        media="(min-width: 320px) and (max-width: 767px)"
+      />
+      <source
+        srcset="
+          ../img/advantages/advantages-tablet.jpg   1x,
+          ../img/advantages/advantages-tablet@2.jpg 2x
+        "
+        media="(min-width: 768px) and (max-width: 1279px)"
+      />
+      <source
+        srcset="
+          ../img/advantages/advantages-desktop.jpg   1x,
+          ../img/advantages/advantages-desktop@2.jpg 2x
+        "
+        media="(min-width: 1280px) and (max-width: 1439px)"
+      />
+      <source
+        srcset="
+          ../img/advantages/advantages-desktop1440.jpg   1x,
+          ../img/advantages/advantages-desktop1440@2.jpg
+        "
+        media="(min-width: 1440px)"
+      />
+
+      <img
+        class="advatages-image"
+        src="../img/advantages/advantages-mobil.jpg"
+        alt="Advantages picture"
+      />
+    </picture>
   </div>
 </section>
