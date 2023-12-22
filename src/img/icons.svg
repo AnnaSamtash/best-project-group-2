@@ -21,6 +21,9 @@
         <symbol id="icon-burger-header-mobil" viewBox="0 0 32 32">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.857" d="M4 20h24M4 12h24" />
         </symbol>
-  
+        <symbol id="icon-send" viewBox="0 0 38 32">
+            <path
+                d="M38.4 0 0 18l12.272 3.788L31.2 7 16.803 23.186l.012.004-.014-.004V32l6.882-6.691L32.401 28l6-28z" />
+        </symbol>
     </defs>
 </svg>
