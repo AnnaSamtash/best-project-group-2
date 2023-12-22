@@ -1,9 +1,9 @@
-.reviews-title{
+.reviews-title {
     text-align: center;
     margin-bottom: 25px;
 }
 
-.reviews-text{
+.reviews-text {
     color: #FBFBFB;
     text-align: center;
     font-size: 12px;
@@ -16,7 +16,7 @@
     margin-right: auto;
 }
 
-.reviews-list-item-first{
+.reviews-list-item-first {
     padding: 32px 8px;
     border-radius: 24px;
     background: #FBFBFB;
@@ -30,19 +30,20 @@
     display: none;
 }
 
-.reviews-list-avatar{
+.reviews-list-avatar {
     margin: 0 auto;
     margin-bottom: 24px;
 }
 
-.reviews-list-fullname{
-    display: flex;
-    justify-content: center;
+.reviews-list-fullname {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
     color: #040306;
     margin-bottom: 8px;
 }
 
-.reviews-list-text-first{
+.reviews-list-text-first {
     color: rgba(4, 3, 6, 0.40);
     text-align: center;
     font-size: 16px;
@@ -54,22 +55,22 @@
     margin-right: auto;
 }
 
-@media screen and (min-width: 768px){
-    .reviews-title{
+@media screen and (min-width: 768px) {
+    .reviews-title {
         font-size: 48px;
     }
 
-    .reviews-text{
+    .reviews-text {
         max-width: 571px;
         font-size: 14px;
         line-height: 1.28;
         margin-bottom: 75px;
-}
+    }
 
-    .reviews-list{
+    .reviews-list {
         display: flex;
         gap: 32px;
-        justify-content:center;
+        justify-content: center;
     }
 
     .reviews-list-item-second {
@@ -92,8 +93,8 @@
     }
 }
 
-@media screen and (min-width: 1280px){
-    .reviews-title{
+@media screen and (min-width: 1280px) {
+    .reviews-title {
         max-width: 854px;
         margin-right: auto;
         margin-left: auto;
@@ -115,7 +116,7 @@
         padding: 32px 28px;
     }
 
-    .reviews-list-text-second{
+    .reviews-list-text-second {
         max-width: 320px;
     }
 
@@ -141,7 +142,7 @@
 
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
     .reviews-list {
         gap: 32px;
     }
@@ -150,8 +151,8 @@
         padding: 32px 36px;
         width: 392px;
     }
-    
-    .reviews-list-item-second{
+
+    .reviews-list-item-second {
         padding: 32px 36px;
         width: 392px;
     }
