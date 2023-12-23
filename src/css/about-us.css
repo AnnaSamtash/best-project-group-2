@@ -1,6 +1,11 @@
+.about-us-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .box-about-us {
-  position: relative;
-  margin-bottom: 180px;
+  border-radius: 24px;
+  background: #fbfbfb;
 }
 
 .about-us-wrapper {
@@ -8,10 +13,9 @@
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
-  width: 335px;
-  padding: 40px 20px 335px 20px;
-  border-radius: 24px;
-  background: #fbfbfb;
+  max-width: 335px;
+  padding: 40px 20px 40px 20px;
+
 }
 
 .about-us-title {
@@ -23,11 +27,12 @@
 }
 
 .about-us-caption-and-text-wrapper {
-  width: 295px;
+  max-width: 295px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .about-us-caption {
@@ -47,31 +52,35 @@
   opacity: 0.4;
 }
 
-.about-us-picture {
-  position: absolute;
-  top: 380px;
+.tumb-picture {
+  width: 100%;
   border-radius: 24px;
   overflow: hidden;
+  display: block;
 }
 
+.about-us-picture {
+  border-radius: 24px;
+  display: block;
+}
+
+
 @media screen and (min-width: 768px) {
-  .box-about-us {
-    margin-bottom: 426px;
-  }
+
 
   .about-us-wrapper {
     gap: 50px;
-    width: 704px;
-    padding: 50px 136px 244px 32px;
+    max-width: 704px;
+    padding: 50px 32px;
   }
 
   .about-us-title {
-    width: 536px;
+    max-width: 536px;
     font-size: 48px;
   }
 
   .about-us-caption-and-text-wrapper {
-    width: 389px;
+    max-width: 389px;
   }
 
   .about-us-caption {
@@ -83,52 +92,38 @@
     font-size: 13px;
     line-height: 1.15;
   }
-
-  .about-us-picture {
-    top: 481px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .box-about-us {
-    margin-bottom: 305px;
-  }
+
 
   .about-us-wrapper {
     flex-direction: row;
     justify-content: space-between;
-    width: 1180px;
-    padding: 50px 50px 415px 50px;
+    max-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
   }
 
   .about-us-title {
-    width: 537px;
+    max-width: 537px;
   }
 
   .about-us-caption-and-text-wrapper {
-    width: 354px;
+    max-width: 354px;
   }
 
-  .about-us-picture {
-    top: 360px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
-  .box-about-us {
-    margin-bottom: 282px;
-  }
 
   .about-us-wrapper {
-    width: 1340px;
-    padding-bottom: 438px;
+    max-width: 1340px;
   }
 
   .about-us-caption-and-text-wrapper {
-    width: 404px;
+    max-width: 404px;
   }
 
-  .about-us-picture {
-    top: 337px;
-  }
 }
