@@ -76,7 +76,7 @@
   display: block;
   transition: background-color 250ms linear, color 250ms linear;
 }
-.hero-btn:focus {
+.hero-btn:active {
   background-color: #fbfbfb;
   color: #1b414b;
 }
@@ -133,42 +133,46 @@
     line-height: 1.1;
     width: 179px;
   }
-}
-.hero-btn {
-  position: relative;
-  appearance: none;
-  outline: none;
-  overflow: hidden;
-
-  span {
+  .hero-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+  .hero-btn {
     position: relative;
-    pointer-events: none;
-    transition: color 0.3s ease;
-    z-index: 2;
-  }
+    appearance: none;
+    outline: none;
+    overflow: hidden;
 
-  &::before {
-    --size: 0;
-    content: '';
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    width: var(--size);
-    height: var(--size);
-    background: radial-gradient(
-      circle closest-side,
-      rgba(251, 251, 251, 1),
-      transparent
-    );
-    transform: translate(-50%, -50%);
-    transition: width 0.2s ease, height 0.2s ease;
-    z-index: 1;
-  }
-  &:hover span {
-    color: rgba(27, 65, 75, 1);
-  }
-  &:hover::before {
-    --size: 350px;
+    span {
+      position: relative;
+      pointer-events: none;
+      transition: color 0.3s ease;
+      z-index: 2;
+    }
+
+    &::before {
+      --size: 0;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(
+        circle closest-side,
+        rgba(251, 251, 251, 1),
+        transparent
+      );
+      transform: translate(-50%, -50%);
+      transition: width 0.2s ease, height 0.2s ease;
+      z-index: 1;
+    }
+    &:hover span {
+      color: rgba(27, 65, 75, 1);
+    }
+    &:hover::before {
+      --size: 350px;
+    }
   }
 }
 
