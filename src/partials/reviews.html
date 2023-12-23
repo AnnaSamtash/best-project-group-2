@@ -61,6 +61,48 @@
           for relaxing and entertaining. Worth every penny!
         </p>
       </li>
+      <li class="reviews-list-item reviews-list-item-form">
+        <p class="review-form-text">Leave a review</p>
+        <form class="reviews-form" name="reviews-form">
+          <div class="review-form-wrapper">
+            <label class="reviews-form-label" for="">Your photo</label>
+            <input class="reviews-form-file" type="file" required />
+          </div>
+          <div class="review-form-wrapper">
+            <label class="reviews-form-label" for="user-fullname">Name</label>
+            <input
+              class="reviews-form-input"
+              id="user-fullname"
+              name="user-fullname"
+              type="text"
+              title="John Wax"
+              placeholder="John Wax"
+              required
+            />
+          </div>
+          <div class="review-form-wrapper">
+            <label class="reviews-form-label" for="user-review">Review</label>
+            <textarea
+              class="reviews-form-textarea"
+              id="user-review"
+              name="user-review"
+              placeholder="Enter text"
+              required
+            >
+            </textarea>
+          </div>
+          <button class="reviews-form-btn" type="submit">
+            <svg
+              class="reviews-form-icon-send"
+              width="16"
+              height="16"
+              aria-label="reviews form icon send"
+            >
+              <use href="../img/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </li>
     </ul>
   </div>
 </section>

@@ -49,6 +49,68 @@
     margin-right: auto;
 }
 
+.review-form-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #040306;
+    margin-bottom: 12px;
+}
+
+.review-form-wrapper{
+    margin-bottom: 4px;
+}
+
+.reviews-list-item-form{
+    padding: 32px 8px;
+    border-radius: 24px;
+    background: #FBFBFB;
+    height: 282px;
+}
+
+.reviews-form-label{
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.reviews-form-input{
+    padding: 10px 16px;
+    color: rgba(4, 3, 6, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid #1B414B;
+    width: 100%;
+}
+
+.reviews-form-textarea{
+    padding: 10px 16px;
+    color: rgba(4, 3, 6, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid #1B414B;
+    width: 100%;
+    resize: none;
+}
+
+.reviews-form-btn{
+    background: #1B414B;
+    line-height: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .reviews-list-item-second {
         display: none;
@@ -83,6 +145,7 @@
         display: flex;
         gap: 32px;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .reviews-list-item {
