@@ -1,0 +1,86 @@
+<button class="chat-button" data-modal-help-open>Ask me</button>
+<div class="modal-help-page-backdrop is-hidden" data-modal-help>
+  <div class="modal-help-page-content">
+    <button type="button" class="modal-help-close-btn" data-modal-help-close>
+      <svg
+        class="modal-help-close-icon"
+        width="28"
+        height="28"
+        viewBox="0 0 30 32"
+        aria-label="modal help page close icon"
+      >
+        <use href="./img/icons.svg#icon-mobil-menu-close"></use>
+      </svg>
+    </button>
+    <p class="modal-help-page-title">Leave your question</p>
+    <form class="modal-help-form" name="submit-form" autocomplete="off">
+      <div class="modal-help-form-item-container">
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-name"
+          >Full Name</label
+        >
+        <input
+          class="modal-help-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          required
+          autofocus
+          pattern="[a-zA-Zа-яА-яіІїЇєЄґҐʼ]+"
+          placeholder="Full Name"
+          title="Maxim"
+        />
+      </div>
+      <div class="modal-help-form-item-container">
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-phone"
+          >Phone number</label
+        >
+        <input
+          class="modal-help-form-input"
+          type="tel"
+          name="user-phone"
+          id="user-phone"
+          required
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          placeholder="Phone number"
+        />
+      </div>
+      <div class="modal-help-form-item-container">
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-email"
+          >Email</label
+        >
+        <input
+          class="modal-help-form-input"
+          type="email"
+          name="user-email"
+          id="user-email"
+          required
+          title="test@gmail.com"
+          placeholder="Email"
+        />
+      </div>
+      <div class="modal-help-form-item-container">
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-comment"
+          >Your question</label
+        >
+        <textarea
+          class="modal-help-form-comment"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Your question"
+        ></textarea>
+      </div>
+      <button class="modal-help-form-button" type="submit">
+        <span>Send</span>
+      </button>
+    </form>
+  </div>
+</div>
