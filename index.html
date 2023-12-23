@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/best-project-group-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/best-project-group-2/assets/index-1caf13d8.css">
+    <link rel="stylesheet" href="/best-project-group-2/assets/index-7f93cfe5.css">
   </head>
   <body>
     
@@ -427,17 +427,27 @@
     <p class="modal-help-page-title">Leave your question</p>
     <form class="modal-help-form" name="submit-form" autocomplete="off">
       <div class="modal-help-form-item-container">
-        <label class="modal-help-form-input-label" for="user-name">Name</label>
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-name"
+          >Full Name</label
+        >
         <input
           class="modal-help-form-input"
           type="text"
           name="user-name"
           id="user-name"
-          placeholder="Your name"
+          required
+          autofocus
+          pattern="[a-zA-Zа-яА-яіІїЇєЄґҐʼ]+"
+          placeholder="Full Name"
+          title="Maxim"
         />
       </div>
       <div class="modal-help-form-item-container">
-        <label class="modal-help-form-input-label" for="user-phone"
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-phone"
           >Phone number</label
         >
         <input
@@ -445,33 +455,44 @@
           type="tel"
           name="user-phone"
           id="user-phone"
-          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          required
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          placeholder="Phone number"
         />
       </div>
       <div class="modal-help-form-item-container">
-        <label class="modal-help-form-input-label" for="user-email"
-          >E-mail</label
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-email"
+          >Email</label
         >
         <input
           class="modal-help-form-input"
           type="email"
           name="user-email"
           id="user-email"
-          placeholder="example@gmail.com"
+          required
+          title="test@gmail.com"
+          placeholder="Email"
         />
       </div>
-      <div class="modal-help-form-item-container last">
-        <label class="modal-help-form-input-label" for="user-comment"
-          >Comment</label
+      <div class="modal-help-form-item-container">
+        <label
+          class="modal-help-form-input-label visually-hidden"
+          for="user-comment"
+          >Your question</label
         >
         <textarea
           class="modal-help-form-comment"
           id="user-comment"
           name="user-comment"
-          placeholder="Your comment"
+          placeholder="Your question"
         ></textarea>
       </div>
-      <button class="modal-help-form-button" type="submit">Send</button>
+      <button class="modal-help-form-button" type="submit">
+        <span>Send</span>
+      </button>
     </form>
   </div>
 </div>
