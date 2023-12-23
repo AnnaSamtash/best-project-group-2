@@ -127,6 +127,7 @@ textarea::placeholder {
     }
 
     .rent-yacht-form-submit-btn {
+        min-width: 194px;
         padding: 18px 75px;
         font-size: 18px;
         line-height: 1.1;
