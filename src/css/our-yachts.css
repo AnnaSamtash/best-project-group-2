@@ -204,6 +204,15 @@
     .benetti-params {
         gap: 6px 104px;
     }
+
+    .yaht-rental-link-button {
+        margin-top: 50px;
+        padding: 16px 40px;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        background-color: inherit;
+    }
 }
 
 /* TABLET END */
