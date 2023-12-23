@@ -65,8 +65,16 @@
         <p class="review-form-text">Leave a review</p>
         <form class="reviews-form" name="reviews-form">
           <div class="review-form-wrapper">
-            <label class="reviews-form-label" for="">Your photo</label>
-            <input class="reviews-form-file" type="file" required />
+            <label class="reviews-form-label-file" for="upload-file__input_1">
+            </label>
+            <input
+              class="reviews-form-file"
+              id="upload-file__input_1"
+              name="files[]"
+              type="file"
+              accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip"
+              required
+            />
           </div>
           <div class="review-form-wrapper">
             <label class="reviews-form-label" for="user-fullname">Name</label>
@@ -92,13 +100,14 @@
             </textarea>
           </div>
           <button class="reviews-form-btn" type="submit">
-            <svg
+            Send
+            <!-- <svg
               class="reviews-form-icon-send"
               width="16"
               height="16"
               aria-label="reviews form icon send"
             >
-              <use href="../img/icons.svg#icon-send"></use>
+              <use href="../img/icons.svg#icon-send"></use> -->
             </svg>
           </button>
         </form>
