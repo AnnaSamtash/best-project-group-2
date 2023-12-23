@@ -49,6 +49,18 @@
     margin-right: auto;
 }
 
+.reviews-list-item-form{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.reviews-list-item-form.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .review-form-text {
     text-align: center;
     font-size: 18px;
