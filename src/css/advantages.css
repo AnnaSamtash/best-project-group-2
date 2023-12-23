@@ -1,0 +1,138 @@
+.advantages-list {
+  background-color: #1b414b;
+  border-radius: 24px;
+  list-style-type: none;
+  display: flex;
+  margin-top: 0;
+
+}
+
+
+.advantages-number {
+  color: #fbfbfb;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  word-wrap: break-word;
+  padding-bottom: 18px;
+}
+
+.advantages-descreption {
+  color: #fbfbfb;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.02em;
+  font-family: Inter;
+  word-wrap: break-word;
+  padding-top: 18px;
+}
+
+.current {
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  height: 2px;
+  border-radius: 18px;
+  background-color: #fbfbfb1a;
+  width: 100%;
+}
+
+.advatages-image {
+  border-radius: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .advantages-list {
+    flex-direction: column;
+    padding: 80px 20px;
+    row-gap: 40px;
+    margin-bottom: 20px;
+  }
+
+  .advatages-list-item {
+    max-width: 295px;
+  }
+
+  .advantages-number {
+    font-size: 28px;
+  }
+
+  .advantages-descreption {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 90px 32px;
+    gap: 44px 32px;
+  }
+
+  .advantages-number {
+    font-size: 32px;
+  }
+
+  .advantages-descreption {
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+  .advatages-list-item {
+    width: 304px;
+    height: 100px;
+  }
+
+  .advantages-list {
+    margin-bottom: 32px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+  .advantages-list {
+    max-width: 716px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .advantages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 32px;
+  }
+
+  .advatages-list-item {
+    width: 292px;
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .advantages-list {
+    max-width: 768px;
+  }
+
+  .advatages-list-item {
+    width: 318px;
+  }
+
+}
