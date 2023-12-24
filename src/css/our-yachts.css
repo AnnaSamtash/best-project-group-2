@@ -1,218 +1,283 @@
 .benetti-oasis-card,
 .belle-anna-card {
-    display: none;
+  display: none;
 }
 
 /* MOBILE START */
 
 .our-yachts-section-title {
-    /*TYPOGRAPHY*/
-    color: #FBFBFB;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    max-width: 319px;
+  /*TYPOGRAPHY*/
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  max-width: 319px;
 }
 
 .our-yahts-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .our-yahts-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 32px;
-    padding: 16px 16px 32px 16px;
-    background-color: #FBFBFB;
-    border-radius: 24px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  padding: 16px 16px 32px 16px;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-
 .yacht-title {
-    /* width: 270px; */
-    display: inline-flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    gap: 125px;
-    position: relative;
+  /* width: 270px; */
+  display: inline-flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 125px;
+  position: relative;
 }
 
 .yacht-title:after {
-    color: rgba(4, 3, 6, 0.10);
-    background-color: rgba(4, 3, 6, 0.10);
-    content: "";
-    width: 100%;
-    position: absolute;
-    bottom: -16px;
-    height: 1px;
-
+  color: rgba(4, 3, 6, 0.1);
+  background-color: rgba(4, 3, 6, 0.1);
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: -16px;
+  height: 1px;
 }
 
 .yacht-name {
-    color: #1B414B;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
-
+  color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
 }
 
 .yacht-class {
-    color: #040306;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    font-weight: 400;
-    opacity: 0.4;
-    text-align: end;
-    text-transform: uppercase;
+  color: #040306;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  opacity: 0.4;
+  text-align: end;
+  text-transform: uppercase;
 }
 
 .yacht-params {
-    display: flex;
-    justify-content: flex-start;
-    gap: 114px;
-    flex-shrink: 1;
-    flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 114px;
+  flex-shrink: 1;
+  flex-grow: 0;
 }
 
 .yacht-params-names {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    text-transform: uppercase;
-    opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-transform: uppercase;
+  opacity: 0.4;
 }
 
 .yaht-parameter-name {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .yaht-params-values {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
 }
 
 .yaht-parameter-value {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .yaht-rental-link-button {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 10px;
-    display: block;
-    padding: 14px 32px;
-    border-radius: 15px;
-    border: 1px solid rgba(251, 251, 251, 0.35);
-    color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    background-color: inherit;
-
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  display: block;
+  padding: 14px 32px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  background-color: inherit;
+  transition: border 250ms linear, background-color 250ms linear,
+    color 250ms linear;
 }
-
+.yaht-rental-link-button:active {
+  border: none;
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
 @media screen and (max-width: 767px) {
-
-    .our-yahts-card:nth-child(2) {
-        display: none;
-    }
+  .our-yahts-card:nth-child(2) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1279px) {
-
-    .our-yahts-card:nth-child(3) {
-        display: none;
-    }
+  .our-yahts-card:nth-child(3) {
+    display: none;
+  }
 }
 
 /* MOBILE END */
 
 /* TABLET START */
 @media screen and (min-width: 768px) {
+  .our-yachts-section-title {
+    font-size: 48px;
+    max-width: 645px;
+    margin-bottom: 75px;
+  }
 
-    .our-yachts-section-title {
-        font-size: 48px;
-        max-width: 645px;
-        margin-bottom: 75px;
+  .our-yahts-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .our-yahts-card {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .yacht-name {
+    /* gap: 16px 112px; */
+    font-size: 16px;
+  }
+
+  .yacht-title {
+    gap: 112px;
+  }
+
+  .benetti-card {
+    gap: 22px;
+  }
+
+  .benetti-card-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 147px;
+  }
+
+  .yacht-class {
+    font-size: 13px;
+  }
+
+  .yacht-params {
+    gap: 6px 116px;
+  }
+
+  .benetti-params {
+    gap: 6px 104px;
+  }
+
+  .yaht-rental-link-button {
+    margin-top: 50px;
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    background-color: inherit;
+  }
+
+  /* ANIMATION BUTTON */
+  .yaht-rental-link-button:focus {
+    border: none;
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+
+  .yaht-rental-link-button {
+    position: relative;
+    appearance: none;
+    outline: none;
+    overflow: hidden;
+
+    span {
+      position: relative;
+      pointer-events: none;
+      transition: color 0.3s ease;
+      z-index: 2;
     }
 
-    .our-yahts-list {
-        display: flex;
-        align-items: center;
-        gap: 32px;
-    }
+    &::before {
+      --size: 0;
 
-    .our-yahts-card {
-        width: calc((100% - 32px)/2);
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(
+        circle closest-side,
+        rgba(251, 251, 251, 1),
+        transparent
+      );
+      transform: translate(-50%, -50%);
+      transition: width 0.2s ease, height 0.2s ease;
+      z-index: 1;
     }
-
-    .yacht-name {
-        /* gap: 16px 112px; */
-        font-size: 16px;
+    &:hover span {
+      color: rgba(27, 65, 75, 1);
     }
-
-    .yacht-title {
-        gap: 112px;
+    &:hover::before {
+      --size: 350px;
     }
+  }
 
-    .benetti-card {
-        gap: 22px;
-    }
+  /* ANIMATION CARDS*/
 
+  .our-yahts-card {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
 
-    .benetti-card-overflow {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        width: 147px;
-    }
+  .our-yahts-card:nth-child(1):hover {
+    transform: scale(1.1);
+  }
 
-    .yacht-class {
-        font-size: 13px;
-    }
+  .our-yahts-card:nth-child(2):hover {
+    transform: scale(1.1);
+  }
 
-    .yacht-params {
-        gap: 6px 116px;
-    }
-
-    .benetti-params {
-        gap: 6px 104px;
-    }
-
-    .yaht-rental-link-button {
-        margin-top: 50px;
-        padding: 16px 40px;
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
-        background-color: inherit;
-    }
+  .our-yahts-card:nth-child(3):hover {
+    transform: scale(1.1);
+  }
+  .our-yahts-list:hover .our-yahts-card:not(:hover) {
+    transform: scale(0.9);
+  }
 }
 
 /* TABLET END */
@@ -220,78 +285,76 @@
 /* DESKTOP 1200 START */
 
 @media screen and (min-width: 1280px) {
-    .our-yachts-section-title {
-        max-width: 714px;
-    }
+  .our-yachts-section-title {
+    max-width: 714px;
+  }
 
-    .yacht-title {
-        gap: 153px;
-    }
+  .yacht-title {
+    gap: 153px;
+  }
 
-    .yacht-params {
-        gap: 153px
-    }
+  .yacht-params {
+    gap: 153px;
+  }
 
-    .benetti-card {
-        gap: 33px;
-    }
+  .benetti-card {
+    gap: 33px;
+  }
 
-    .benetti-card-overflow {
-        width: 177px;
-    }
+  .benetti-card-overflow {
+    width: 177px;
+  }
 
-    .our-yahts-list {
-        gap: 25px;
-    }
+  .our-yahts-list {
+    gap: 25px;
+  }
 
-    .our-yahts-card {
-        width: calc((100% - 50px)/3)
-    }
+  .our-yahts-card {
+    width: calc((100% - 50px) / 3);
+  }
 
-    .belle-anna-title {
-        gap: 118px;
-    }
+  .belle-anna-title {
+    gap: 118px;
+  }
 
-    .belle-anna-params {
-        gap: 145px;
-    }
-
+  .belle-anna-params {
+    gap: 145px;
+  }
 }
 
 /* DESKTOP 1200 END */
 
 /* DESKTOP 1400 START */
 @media screen and (min-width: 1400px) {
-    .our-yahts-list {
-        gap: 32px;
-    }
+  .our-yahts-list {
+    gap: 32px;
+  }
 
-    .our-yahts-card {
-        width: calc((100% - 64px)/3);
-    }
+  .our-yahts-card {
+    width: calc((100% - 64px) / 3);
+  }
 
-    .yacht-title {
-        gap: 168px;
-    }
+  .yacht-title {
+    gap: 168px;
+  }
 
-    .benetti-card {
-        gap: 48px;
-    }
+  .benetti-card {
+    gap: 48px;
+  }
 
-    .belle-anna-title {
-        gap: 133px;
-    }
+  .belle-anna-title {
+    gap: 133px;
+  }
 
-    .yacht-params {
-        gap: 172px;
-    }
+  .yacht-params {
+    gap: 172px;
+  }
 
-    .benetti-params {
-        gap: 160px;
-    }
+  .benetti-params {
+    gap: 160px;
+  }
 
-    .belle-anna-params {
-        gap: 160px;
-    }
-
+  .belle-anna-params {
+    gap: 160px;
+  }
 }
