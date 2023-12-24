@@ -1,81 +1,81 @@
 body {
-    font-family: "Inter", sans-serif;
-    background-color: #0E1823;
+  font-family: 'Inter', sans-serif;
+  background-color: #0e1823;
 }
 
 input,
 textarea,
 button {
-    font-family: inherit;
+  font-family: inherit;
 }
 
 .section-title {
-    color: #FBFBFB;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.02em;
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .container {
-        max-width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .section {
-        padding-bottom: 80px;
-    }
+  .section {
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .section {
-        padding-bottom: 150px;
-    }
+  .section {
+    padding-bottom: 150px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-    .container {
-        max-width: 1280px;
-    }
+  .container {
+    max-width: 1280px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-    }
+  .container {
+    max-width: 1440px;
+  }
 }

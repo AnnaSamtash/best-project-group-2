@@ -224,7 +224,7 @@
     outline: none;
     overflow: hidden;
 
-    span {
+    .span-btn-ouryachts {
       position: relative;
       pointer-events: none;
       transition: color 0.3s ease;
@@ -249,7 +249,7 @@
       transition: width 0.2s ease, height 0.2s ease;
       z-index: 1;
     }
-    &:hover span {
+    &:hover .span-btn-ouryachts {
       color: rgba(27, 65, 75, 1);
     }
     &:hover::before {
@@ -260,7 +260,6 @@
   /* ANIMATION CARDS*/
 
   .our-yahts-card {
-    position: relative;
     transition: transform 0.3s ease-in-out;
   }
 
