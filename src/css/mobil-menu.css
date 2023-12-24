@@ -7,7 +7,16 @@
     width: 100%;
     height: 100%;
     background: #0e1823;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
     transform: translateX(0%);
+  }
+
+  .mob-menu-thumb.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   .mobil-menu-container {
@@ -106,5 +115,11 @@
   .mob-menu-social-link:hover,
   .mob-menu-social-link:focus {
     fill: #fbfbfbcc;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu-thumb {
+    display: none;
   }
 }
