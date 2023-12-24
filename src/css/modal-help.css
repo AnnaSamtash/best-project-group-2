@@ -125,6 +125,14 @@
   border-color: #fbfbfb;
 }
 
+.modal-help-form-input:focus {
+  border-color: #fbfbfb;
+}
+
+.modal-help-form-input:hover {
+  border-color: #fbfbfb;
+}
+
 .modal-help-form-comment {
   width: 100%;
   min-height: 108px;
@@ -148,6 +156,14 @@
 }
 
 .modal-help-form-comment:focus-within {
+  border-color: #fbfbfb;
+}
+
+.modal-help-form-comment:focus {
+  border-color: #fbfbfb;
+}
+
+.modal-help-form-comment:hover {
   border-color: #fbfbfb;
 }
 
