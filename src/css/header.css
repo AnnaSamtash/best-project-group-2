@@ -50,6 +50,7 @@
   border-radius: 8px;
   background: #1b414b80;
   padding: 15px 25px 15px 24px;
+  transition: background-color 250ms linear;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -84,10 +85,6 @@
     column-gap: 4px;
   }
 
-  .hover {
-    background-color: #1b414b;
-  }
-
   .header-social-list {
     display: flex;
     column-gap: 8px;
@@ -99,6 +96,17 @@
 
   .navbar-brand {
     font-size: 20px;
+  }
+  .navbar-menu-btn:hover,
+  .navbar-menu-btn:focus {
+    background-color: #1b414b;
+  }
+  .header-social-list-icon {
+    transition: fill 250ms linear;
+  }
+  .header-social-list-icon:hover,
+  .header-social-list-icon:focus {
+    fill: #062730;
   }
 }
 
