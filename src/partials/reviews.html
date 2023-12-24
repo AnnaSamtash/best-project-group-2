@@ -1,4 +1,4 @@
-<section class="section reviews section">
+<section class="section reviews section" id="reviews" name="reviews">
   <div class="container reviews-container">
     <h2 class="section-title reviews-title">
       YachtJet take pride in providing the best possible service and experience
@@ -60,6 +60,54 @@
           cabins were spacious and elegant, and the outdoor areas were perfect
           for relaxing and entertaining. Worth every penny!
         </p>
+      </li>
+      <li class="reviews-list-item reviews-list-item-form">
+        <p class="review-form-text">Leave a review</p>
+        <form class="reviews-form" name="reviews-form">
+          <label class="reviews-form-label-file" for="upload-file__input_1">
+            <input
+              class="reviews-form-file visually-hidden"
+              id="upload-file__input_1"
+              name="user-photo"
+              type="file"
+              accept=".jpg, .jpeg, .png, .gif"
+            />
+            <span class="input-file-btn"
+              >Downloud your <br />
+              photo</span
+            >
+          </label>
+          <label class="reviews-form-label visually-hidden" for="user-fullname"
+            >Name</label
+          >
+          <input
+            class="reviews-form-input"
+            id="user-fullname"
+            name="user-fullname"
+            type="text"
+            placeholder="Your name"
+            required
+          />
+          <label class="reviews-form-label visually-hidden" for="user-review"
+            >Review</label
+          >
+          <textarea
+            class="reviews-form-textarea"
+            id="user-review"
+            name="user-review"
+            placeholder="Your review"
+          ></textarea>
+          <button class="reviews-form-btn" type="submit">
+            <svg
+              class="reviews-form-icon-send"
+              width="30"
+              height="30"
+              aria-label="reviews form icon send"
+            >
+              <use href="../img/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </li>
     </ul>
   </div>
