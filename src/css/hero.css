@@ -161,7 +161,7 @@
     overflow: hidden;
   }
 
-  span {
+  .span-btn-hero {
     position: relative;
     pointer-events: none;
     transition: color 0.3s ease;
@@ -186,7 +186,7 @@
     z-index: 1;
   }
 
-  &:hover span {
+  &:hover .span-btn-hero {
     color: rgba(27, 65, 75, 1);
   }
 
