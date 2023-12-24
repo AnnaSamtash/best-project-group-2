@@ -85,6 +85,7 @@
     padding: 20px 25px 20px 24px;
     border-radius: 8px;
     width: 91px;
+    transition: background-color 250ms linear, color 250ms linear;
   }
 
   .dark {
@@ -111,9 +112,11 @@
     height: 100%;
     fill: #fbfbfb;
   }
-
-  .mob-menu-social-link:hover,
-  .mob-menu-social-link:focus {
+  .mob-menu-navigation-link:active {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+  .mob-menu-social-link:active {
     fill: #fbfbfbcc;
   }
 }
