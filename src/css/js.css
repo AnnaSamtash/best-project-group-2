@@ -1,0 +1,129 @@
+.slider {
+    display: none;
+}
+
+.slider-item {
+    height: 282px;
+    border-radius: 24px;
+    background: #FBFBFB;
+    flex-shrink: 1;
+    padding: 32px 8px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.reviews-form-label-file {
+    display: block;
+    width: 100%;
+}
+
+.review-form-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #040306;
+    margin-bottom: 12px;
+}
+
+.reviews-list-item-form {
+    padding: 16px 8px;
+    border-radius: 24px;
+    background: #FBFBFB;
+    height: 282px;
+}
+
+.reviews-form-file {
+    z-index: 2;
+    margin-bottom: 8px;
+    width: 56px;
+    height: 56px;
+    margin-left: 130px;
+    display: inline-block;
+    border: 1px solid #1B414B;
+}
+
+.reviews-form-label-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.reviews-form-input {
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    color: rgba(4, 3, 6, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid #1B414B;
+    width: 100%;
+    height: 36px;
+}
+
+.input-file-btn {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #1B414B;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 16px;
+    color: rgba(4, 3, 6, 0.40);
+    margin-bottom: 20px;
+}
+
+.reviews-form-textarea {
+    padding: 10px 10px;
+    color: rgba(4, 3, 6, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid #1B414B;
+    width: 100%;
+    height: 80px;
+    resize: none;
+    position: relative;
+}
+
+.reviews-form-textarea::placeholder,
+.reviews-form-input::placeholder {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 10px 10px;
+    color: rgba(4, 3, 6, 0.40);
+}
+
+.reviews-form-btn {
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 0;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.reviews-form-icon-send {
+    fill: #1B414B;
+}
