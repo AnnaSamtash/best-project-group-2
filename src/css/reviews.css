@@ -156,12 +156,13 @@
     position: absolute;
     bottom: 40px;
     right: 30px;
-
-    .reviews-form-icon-send {
-        fill: #1B414B;
-    }
-
 }
+
+.reviews-form-icon-send {
+    fill: #1B414B;
+}
+
+
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .reviews-list-item-second {

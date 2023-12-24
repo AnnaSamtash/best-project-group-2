@@ -1,0 +1,8 @@
+.slide>.slick-prev:before,
+.slide>.slick-next:before {
+    color: #4d5ae5;
+}
+
+.slick-initialized .slick-track .slick-slide {
+    display: flex;
+}

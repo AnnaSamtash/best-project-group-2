@@ -110,5 +110,112 @@
         </form>
       </li>
     </ul>
+
+    <!-- slider project -->
+
+    <div class="slider responsive">
+      <div class="slider-item reviews-list-item reviews-list-item-first">
+        <img
+          class="reviews-list-avatar"
+          srcset="
+            ./img/reviews/john-wax.png   1x,
+            ./img/reviews/john-wax@2.png 2x
+          "
+          src="./img/reviews/john-wax.png"
+          alt="John Wax"
+        />
+        <h3 class="reviews-list-fullname">John Wax</h3>
+        <p class="reviews-list-text-first">
+          I rented the Lagoon 620 with my family for a week-long vacation and it
+          was the best decision ever. The yacht was spacious, comfortable, and
+          luxurious, and the crew took care of everything.
+        </p>
+      </div>
+
+      <div class="slider-item reviews-list-item reviews-list-item-second">
+        <img
+          class="reviews-list-avatar"
+          srcset="
+            ./img/reviews/victoria-romashenko.png   1x,
+            ./img/reviews/victoria-romashenko@2.png 2x
+          "
+          src="./img/reviews/victoria-romashenko.png"
+          alt="Victoria Romashenko"
+        />
+        <h3 class="reviews-list-fullname">Victoria Romashenko</h3>
+        <p class="reviews-list-text-second">
+          The Sunseeker Manhattan 66 was the perfect choice for our romantic
+          getaway. The yacht was beautifully designed, with all the amenities we
+          needed, and the crew was attentive and friendly.
+        </p>
+      </div>
+
+      <div class="slider-item reviews-list-item reviews-list-item-third">
+        <img
+          class="reviews-list-avatar"
+          srcset="
+            ./img/reviews/ihor-trachuk.png   1x,
+            ./img/reviews/ihor-trachuk@2.png 2x
+          "
+          src="./img/reviews/ihor-trachuk.png"
+          alt="Ihor Trachuk"
+        />
+        <h3 class="reviews-list-fullname">Ihor Trachuk</h3>
+        <p class="reviews-list-text-third">
+          The Azimut 80 was the most luxurious yacht I've ever been on. The
+          cabins were spacious and elegant, and the outdoor areas were perfect
+          for relaxing and entertaining. Worth every penny!
+        </p>
+      </div>
+
+      <div class="slider-item reviews-list-item reviews-list-item-form">
+        <p class="review-form-text">Leave a review</p>
+        <form class="reviews-form" name="reviews-form">
+          <label class="reviews-form-label-file" for="upload-file__input_1">
+            <input
+              class="reviews-form-file visually-hidden"
+              id="upload-file__input_1"
+              name="user-photo"
+              type="file"
+              accept=".jpg, .jpeg, .png, .gif"
+            />
+            <span class="input-file-btn"
+              >Downloud your <br />
+              photo</span
+            >
+          </label>
+          <label class="reviews-form-label visually-hidden" for="user-fullname"
+            >Name</label
+          >
+          <input
+            class="reviews-form-input"
+            id="user-fullname"
+            name="user-fullname"
+            type="text"
+            placeholder="Your name"
+            required
+          />
+          <label class="reviews-form-label visually-hidden" for="user-review"
+            >Review</label
+          >
+          <textarea
+            class="reviews-form-textarea"
+            id="user-review"
+            name="user-review"
+            placeholder="Your review"
+          ></textarea>
+          <button class="reviews-form-btn" type="submit">
+            <svg
+              class="reviews-form-icon-send"
+              width="30"
+              height="30"
+              aria-label="reviews form icon send"
+            >
+              <use href="../img/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
