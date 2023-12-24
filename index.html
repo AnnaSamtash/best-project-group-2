@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/best-project-group-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/best-project-group-2/assets/index-31a29d48.css">
+    <link rel="stylesheet" href="/best-project-group-2/assets/index-8e036aa4.css">
   </head>
   <body>
     <header class="page-header">
@@ -86,7 +86,11 @@
         </a>
       </li>
     </ul>
-    <button class="mobile-menu-open-btn-header" type="button">
+    <button
+      class="mobile-menu-open-btn-header"
+      type="button"
+      data-mobil-menu-open
+    >
       <svg
         class="mobile-menu-open-btn-icon-header"
         width="28"
@@ -102,18 +106,16 @@
     <main>
       <div class="background-picture">
         <section class="hero">
-  <div class="container hero-container">
-    <h1 class="hero-title">
-      Explore the <span class="capitalize">high seas</span> with
-      <span class="capitalize">our luxury yacht rentals</span>
-    </h1>
-    <p class="hero-paragraph">
-      Experience the freedom and luxury of yachting on the open seas. Choose
-      from our top-of-the-line yachts and embark on an unforgettable journey
-      surrounded by breathtaking views and state-of-the-art amenities.
-    </p>
-    <a href="#rent-yacht" class="hero-btn"><span>Yacht rental</span></a>
-  </div>
+  <h1 class="hero-title">
+    Explore the <span class="capitalize">high seas</span> with
+    <span class="capitalize">our luxury yacht rentals</span>
+  </h1>
+  <p class="hero-paragraph">
+    Experience the freedom and luxury of yachting on the open seas. Choose from
+    our top-of-the-line yachts and embark on an unforgettable journey surrounded
+    by breathtaking views and state-of-the-art amenities.
+  </p>
+  <a href="#rent-yacht" class="hero-btn"><span>Yacht rental</span></a>
 </section>
 
         <section class="about-us-section section" id="about-us">
@@ -164,7 +166,7 @@
 
       </div>
       <!-- OUR YAHTS SECTION -->
-<section class="our-yachts-section section">
+<section class="our-yachts-section section" id="our-yachts">
   <div class="container">
     <h2 class="our-yachts-section-title">
       Choose your dream yacht and sail away into the sunset
@@ -174,13 +176,13 @@
         <picture>
           <source
             srcset="
-              ../img/our_yachts/our-yacht-desktop1440.jpg 1x,
-              ../img/our_yachts/our-yacht-desktop1440@2.jpg 2x,              
+              ../img/our_yachts/our-yacht-desktop1440.jpg   1x,
+              ../img/our_yachts/our-yacht-desktop1440@2.jpg 2x
             "
             media="(min-width: 1400px)"
             width="360px"
           />
-          <source            
+          <source
             srcset="/best-project-group-2/assets/our-yacht-desktop-f5135ab7.jpg 1x, /best-project-group-2/assets/our-yacht-desktop@2-cbac710e.jpg 2x"
             media="(min-width: 1280px)"
             width="345px"
@@ -229,8 +231,8 @@
         <picture>
           <source
             srcset="
-              ../img/our_yachts/our-yacht-2-desktop1440.jpg 1x,
-              ../img/our_yachts/our-yacht-2-desktop1440@2.jpg 2x,              
+              ../img/our_yachts/our-yacht-2-desktop1440.jpg   1x,
+              ../img/our_yachts/our-yacht-2-desktop1440@2.jpg 2x
             "
             media="(min-width: 1400px)"
             width="360px"
@@ -257,7 +259,7 @@
           <p class="yacht-class">Luxury Yahts</p>
         </div>
         <div class="yacht-params benetti-params">
-          <ul class="yacht-params-names ">
+          <ul class="yacht-params-names">
             <li class="yaht-parameter-name">LENGTH</li>
 
             <li class="yaht-parameter-name">SHIPYARD</li>
@@ -281,8 +283,8 @@
         <picture>
           <source
             srcset="
-              ../img/our_yachts/our-yacht-3-desktop1440.jpg 1x,
-              ../img/our_yachts/our-yacht-3-desktop1440@2.jpg 2x,              
+              ../img/our_yachts/our-yacht-3-desktop1440.jpg   1x,
+              ../img/our_yachts/our-yacht-3-desktop1440@2.jpg 2x
             "
             media="(min-width: 1400px)"
             width="360px"
@@ -589,7 +591,7 @@
             <a class="footer-link" href="#about-us">about</a>
           </li>
           <li class="footer-item">
-            <a class="footer-link" href="#rent-yacht">yachts</a>
+            <a class="footer-link" href="#our-yachts">yachts</a>
           </li>
           <li class="footer-item">
             <a class="footer-link" href="#reviews">reviews</a>
@@ -648,11 +650,11 @@
   </div>
 </section>
 
-    <div class="mob-menu-thumb is-hidden" data-modal>
+    <div class="mob-menu-thumb is-hidden" data-mobil-menu>
   <div class="mobil-menu-container">
     <header class="mob-nav-menu-top">
       <a class="mob-logo" href="../index.html">yachtjet</a>
-      <button class="mob-menu-close-btn" type="button" data-modal-close>
+      <button class="mob-menu-close-btn" type="button" data-mobil-menu-close>
         <svg
           class="mob-menu-close-btn-icon"
           width="28"
@@ -725,7 +727,7 @@
   </div>
 </div>
 
-    <button class="chat-button" data-modal-help-open>Ask me</button>
+    <button class="chat-button" type="button" data-modal-help-open>Ask me</button>
 <div class="modal-help-page-backdrop is-hidden" data-modal-help>
   <div class="modal-help-page-content">
     <button type="button" class="modal-help-close-btn" data-modal-help-close>
