@@ -28,7 +28,7 @@
     />
     
     <script type="module" crossorigin src="/best-project-group-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/best-project-group-2/assets/index-e155c59e.css">
+    <link rel="stylesheet" href="/best-project-group-2/assets/index-c4c14b18.css">
   </head>
   <body>
     <header class="page-header">
@@ -188,12 +188,10 @@
           <source
             srcset="/best-project-group-2/assets/our-yacht-desktop1440-cbbd001f.jpg 1x, /best-project-group-2/assets/our-yacht-desktop1440@2-3944db63.jpg 2x"
             media="(min-width: 1400px)"
-            width="360px"
           />
           <source
             srcset="/best-project-group-2/assets/our-yacht-desktop-f5135ab7.jpg 1x, /best-project-group-2/assets/our-yacht-desktop@2-cbac710e.jpg 2x"
             media="(min-width: 1280px)"
-            width="345px"
           />
           <source
             srcset="/best-project-group-2/assets/our-yacht-tablet-4499086b.jpg 1x, /best-project-group-2/assets/our-yacht-tablet@2-a570b1d2.jpg 2x"
@@ -203,11 +201,7 @@
             srcset="/best-project-group-2/assets/our-yaht-mobil-9d1eee76.jpg 1x, /best-project-group-2/assets/our-yaht-mobil@2-33be757b.jpg 2x"
             media="(min-width: 320px) and (max-width: 375px)"
           />
-          <img
-            src="/best-project-group-2/assets/our-yaht-mobil-9d1eee76.jpg"
-            alt="Arrow"
-            width="302px"
-          />
+          <img src="/best-project-group-2/assets/our-yaht-mobil-9d1eee76.jpg" alt="Arrow" />
         </picture>
 
         <div class="yacht-title">
@@ -240,12 +234,10 @@
           <source
             srcset="/best-project-group-2/assets/our-yacht-2-desktop1440-1cafacaf.jpg 1x, /best-project-group-2/assets/our-yacht-2-desktop1440@2-ab65b881.jpg 2x"
             media="(min-width: 1400px)"
-            width="360px"
           />
           <source
             srcset="/best-project-group-2/assets/our-yacht-desktop2-5a74db90.jpg 1x, /best-project-group-2/assets/our-yacht-desktop2@2-30d4c55b.jpg 2x"
             media="(min-width: 1280px)"
-            width="345px"
           />
           <source
             srcset="/best-project-group-2/assets/our-yacht-tablet2-9ce3bcf4.jpg 1x, /best-project-group-2/assets/our-yacht-tablet2@2-22f94922.jpg 2x"
@@ -254,7 +246,6 @@
           <img
             src="/best-project-group-2/assets/our-yacht-tablet2-9ce3bcf4.jpg"
             alt="BENETTI OASIS 40M BO122"
-            width="304px"
           />
         </picture>
         <div class="yacht-title benetti-card">
@@ -289,18 +280,13 @@
           <source
             srcset="/best-project-group-2/assets/our-yacht-3-desktop1440-c37fd18c.jpg 1x, /best-project-group-2/assets/our-yacht-3-desktop1440@2-186b6431.jpg 2x"
             media="(min-width: 1400px)"
-            width="360px"
           />
           <source
             srcset="/best-project-group-2/assets/our-yacht-desktop3-e44f816a.jpg 1x, /best-project-group-2/assets/our-yacht-desktop3@2-78c62ef8.jpg 2x"
             media="(min-width: 1280px)"
           />
 
-          <img
-            src="/best-project-group-2/assets/our-yacht-desktop3-e44f816a.jpg"
-            alt="BELLE ANNA"
-            width="345px"
-          />
+          <img src="/best-project-group-2/assets/our-yacht-desktop3-e44f816a.jpg" alt="BELLE ANNA" />
         </picture>
         <div class="yacht-title belle-anna-title">
           <h3 class="yacht-name">BELLE ANNA</h3>
@@ -324,11 +310,7 @@
         </div>
       </li>
     </ul>
-    <button type="button" class="yaht-rental-link-button">
-      <a href="./index.html#our_yachts" class="yaht-rental-link"
-        ><span class="span-btn-ouryachts">Yacht rental</span></a
-      >
-    </button>
+    <a href="#rent-yacht" class="yaht-rental-link"> Yacht rental </a>
   </div>
 </section>
 
@@ -394,76 +376,100 @@
 </section>
 
       <section class="rent-yacht section" id="rent-yacht">
-<div class="rent-yacht-section-container container">
-<div class="rent-yacht-container">
-    <h2 class="rent-yacht-title section-title">Rent a yacht now</h2>
-        <form class="rent-yacht-form">
-            <label class="rent-yacht-form-field-label visually-hidden" for="user-name">Full Name</label>
-                <input
-                class="rent-yacht-form-input"
-                id="user-name"
-                name="user-name"
-                type="text"
-                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
-                title="Enter Name"
-                placeholder="Full Name"
-                required
-                />
-            <label class="rent-yacht-form-field-label visually-hidden" for="user-email">Email</label>
-                <input
-                class="rent-yacht-form-input"
-                id="user-email"
-                name="user-email"
-                type="email"
-                placeholder="Email"
-                required
-                />
-            <label class="rent-yacht-form-field-label visually-hidden" for="user-tel">Phone</label>
-                <input
-                class="rent-yacht-form-input"
-                id="user-tel"
-                name="user-tel"
-                type="tel"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
-                placeholder="Phone"
-                required
-                />
-            <label class="rent-yacht-form-field-label visually-hidden" for="user-comment">Comment</label> 
-                <textarea
-                class="rent-yacht-form-comment"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Comment"
-                required
-                >
-                </textarea>
-            <button class="rent-yacht-form-submit-btn button" type="submit">
-            Send
-            </button>
-</div>
-<div class="rent-yacht-img-container">
-    <picture>
-        <source 
-            srcset="/best-project-group-2/assets/rent-desktop1440-d527fe54.jpg 1x, /best-project-group-2/assets/rent-desktop1440@2-0ca1fe6a.jpg 2x" 
-            media="(min-width:1440px)"/>
-            <source 
-            srcset="/best-project-group-2/assets/rent-desktop-b0299832.jpg 1x, /best-project-group-2/assets/rent-desktop@2-b9915c03.jpg 2x" 
-            media="(min-width:1280px)"/>
-            <source 
-            srcset="/best-project-group-2/assets/rent-tablet-ea79f956.jpg 1x, /best-project-group-2/assets/rent-tablet@2-e485b06e.jpg 2x" 
-            media="(min-width:768px)"/>
-            <source 
-            srcset="/best-project-group-2/assets/rent-mobil-d6e7ab1d.jpg 1x, /best-project-group-2/assets/rent-mobil@2-50766529.jpg 2x" 
-            media="(max-width:767px)"/>
-            <img 
-            class="rent-yacht-img" src="/best-project-group-2/assets/rent-desktop1440-d527fe54.jpg" alt="Our rent yacht"/> 
-        </picture>
+  <div class="rent-yacht-section-container container">
+    <div class="rent-yacht-container">
+      <h2 class="rent-yacht-title section-title">Rent a yacht now</h2>
+      <form class="rent-yacht-form">
+        <label
+          class="rent-yacht-form-field-label visually-hidden"
+          for="user-name"
+          >Full Name</label
+        >
+        <input
+          class="rent-yacht-form-input"
+          id="user-name"
+          name="user-name"
+          type="text"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+          title="Enter Name"
+          placeholder="Full Name"
+          required
+        />
+        <label
+          class="rent-yacht-form-field-label visually-hidden"
+          for="user-email"
+          >Email</label
+        >
+        <input
+          class="rent-yacht-form-input"
+          id="user-email"
+          name="user-email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <label
+          class="rent-yacht-form-field-label visually-hidden"
+          for="user-tel"
+          >Phone</label
+        >
+        <input
+          class="rent-yacht-form-input"
+          id="user-tel"
+          name="user-tel"
+          type="tel"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          placeholder="Phone"
+          required
+        />
+        <label
+          class="rent-yacht-form-field-label visually-hidden"
+          for="user-comment"
+          >Comment</label
+        >
+        <textarea
+          class="rent-yacht-form-comment"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Comment"
+          required
+        >
+        </textarea>
+        <button class="rent-yacht-form-submit-btn button" type="submit">
+          Send
+        </button>
+      </form>
     </div>
-</div>       
+    <div class="rent-yacht-img-container">
+      <picture>
+        <source
+          srcset="/best-project-group-2/assets/rent-desktop1440-d527fe54.jpg 1x, /best-project-group-2/assets/rent-desktop1440@2-0ca1fe6a.jpg 2x"
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="/best-project-group-2/assets/rent-desktop-b0299832.jpg 1x, /best-project-group-2/assets/rent-desktop@2-b9915c03.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/best-project-group-2/assets/rent-tablet-ea79f956.jpg 1x, /best-project-group-2/assets/rent-tablet@2-e485b06e.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/best-project-group-2/assets/rent-mobil-d6e7ab1d.jpg 1x, /best-project-group-2/assets/rent-mobil@2-50766529.jpg 2x"
+          media="(max-width:767px)"
+        />
+        <img
+          class="rent-yacht-img"
+          src="/best-project-group-2/assets/rent-desktop1440-d527fe54.jpg"
+          alt="Our rent yacht"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
 
-      <section class="section reviews section" id="reviews" name="reviews">
+      <section class="section reviews section" id="reviews">
   <div class="container reviews-container">
     <h2 class="section-title reviews-title">
       YachtJet take pride in providing the best possible service and experience
@@ -569,7 +575,7 @@
 
       <div class="slider-item">
         <p class="review-form-text">Leave a review</p>
-        <form class="reviews-form" name="reviews-form">
+        <form class="reviews-form">
           <label class="reviews-form-label-file" for="upload-file__input_1">
             <input
               class="reviews-form-file visually-hidden"
@@ -620,7 +626,7 @@
 </section>
 
     </main>
-    <section class="footer">
+    <footer class="footer-page">
   <div class="container footer-container">
     <div class="footer-up-container">
       <a class="footer-logo" href="../index.html">yachtjet</a>
@@ -688,7 +694,7 @@
       </a>
     </div>
   </div>
-</section>
+</footer>
 
     <div class="mob-menu-thumb is-hidden" data-mobil-menu>
   <div class="mobil-menu-container">
