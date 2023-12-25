@@ -136,15 +136,6 @@
     color 250ms linear;
 }
 
-/* .span-btn-ouryachts {
-  white-space: nowrap;
-  max-width: 77px;
-  color: #FBFBFB;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-} */
 
 .yaht-rental-link:active {
   border: none;
@@ -225,6 +216,7 @@
     line-height: 1.1;
     letter-spacing: -0.02em;
     background-color: inherit;
+    text-align: center;
   }
 
   /* ANIMATION BUTTON */
@@ -241,11 +233,11 @@
     overflow: hidden;
 
     .span-btn-ouryachts {
+      text-align: center;
       color: #FBFBFB;
-      font-size: 14px;
-      font-style: normal;
+      font-size: 18px;
       font-weight: 500;
-      line-height: 1.29;
+      line-height: 1.1;
       letter-spacing: -0.02em;
       position: relative;
       pointer-events: none;
