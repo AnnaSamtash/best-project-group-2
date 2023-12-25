@@ -36,6 +36,10 @@
   letter-spacing: -0.03em;
 }
 
+.header-nav-link {
+  padding: 15px 25px 15px 24px;
+}
+
 .navbar-menu-btn {
   color: #fbfbfb;
   text-align: center;
@@ -49,7 +53,10 @@
   flex-shrink: 0;
   border-radius: 8px;
   background: #1b414b80;
-  padding: 15px 25px 15px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   transition: background-color 250ms linear;
 }
 
@@ -97,13 +104,16 @@
   .navbar-brand {
     font-size: 20px;
   }
+
   .navbar-menu-btn:hover,
   .navbar-menu-btn:focus {
     background-color: #1b414b;
   }
+
   .header-social-list-icon {
     transition: fill 250ms linear;
   }
+
   .header-social-list-icon:hover,
   .header-social-list-icon:focus {
     fill: #062730;
