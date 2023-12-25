@@ -116,10 +116,13 @@
 }
 
 .yaht-rental-link {
+  white-space: nowrap;
+  width: 141px;
+  height: 46px;
   margin-top: 40px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   padding: 14px 32px;
   border-radius: 15px;
   border: 1px solid rgba(251, 251, 251, 0.35);
@@ -132,6 +135,16 @@
   transition: border 250ms linear, background-color 250ms linear,
     color 250ms linear;
 }
+
+/* .span-btn-ouryachts {
+  white-space: nowrap;
+  max-width: 77px;
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+} */
 
 .yaht-rental-link:active {
   border: none;
@@ -204,6 +217,8 @@
   }
 
   .yaht-rental-link {
+    width: 179px;
+    height: 52px;
     margin-top: 50px;
     padding: 16px 40px;
     font-size: 18px;
@@ -226,6 +241,12 @@
     overflow: hidden;
 
     .span-btn-ouryachts {
+      color: #FBFBFB;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.29;
+      letter-spacing: -0.02em;
       position: relative;
       pointer-events: none;
       transition: color 0.3s ease;
