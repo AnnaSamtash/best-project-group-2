@@ -115,11 +115,10 @@
   letter-spacing: 0.03em;
 }
 
-.yaht-rental-link-button {
+.yaht-rental-link {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  gap: 10px;
   display: block;
   padding: 14px 32px;
   border-radius: 15px;
@@ -133,11 +132,13 @@
   transition: border 250ms linear, background-color 250ms linear,
     color 250ms linear;
 }
-.yaht-rental-link-button:active {
+
+.yaht-rental-link:active {
   border: none;
   background-color: #fbfbfb;
   color: #1b414b;
 }
+
 @media screen and (max-width: 767px) {
   .our-yahts-card:nth-child(2) {
     display: none;
@@ -202,7 +203,7 @@
     gap: 6px 104px;
   }
 
-  .yaht-rental-link-button {
+  .yaht-rental-link {
     margin-top: 50px;
     padding: 16px 40px;
     font-size: 18px;
@@ -240,18 +241,18 @@
       top: var(--y);
       width: var(--size);
       height: var(--size);
-      background: radial-gradient(
-        circle closest-side,
-        rgba(251, 251, 251, 1),
-        transparent
-      );
+      background: radial-gradient(circle closest-side,
+          rgba(251, 251, 251, 1),
+          transparent);
       transform: translate(-50%, -50%);
       transition: width 0.2s ease, height 0.2s ease;
       z-index: 1;
     }
+
     &:hover .span-btn-ouryachts {
       color: rgba(27, 65, 75, 1);
     }
+
     &:hover::before {
       --size: 350px;
     }
@@ -274,6 +275,7 @@
   .our-yahts-card:nth-child(3):hover {
     transform: scale(1.1);
   }
+
   .our-yahts-list:hover .our-yahts-card:not(:hover) {
     transform: scale(0.9);
   }
