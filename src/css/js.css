@@ -3,14 +3,15 @@
 }
 
 .slider-item {
+    width: 335px;
     height: 282px;
     border-radius: 24px;
     background: #FBFBFB;
     flex-shrink: 1;
     padding: 32px 8px;
-    margin-right: 2px;
-    margin-left: 2px;
+    position: relative;
 }
+
 
 .reviews-form-label-file {
     display: block;
@@ -100,7 +101,7 @@
     width: 100%;
     height: 80px;
     resize: none;
-    position: relative;
+
 }
 
 .reviews-form-textarea::placeholder,
@@ -122,8 +123,48 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
+    z-index: 2;
 }
 
 .reviews-form-icon-send {
     fill: #1B414B;
+}
+
+@media screen and (min-width: 768px) {
+    .slider-item {
+        width: 344px;
+        margin-right: 4px;
+        margin-left: 4px;
+        padding: 32px 12px;
+    }
+
+    .reviews-form-btn {
+        right: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+    .slider-item {
+        width: 360px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+    .reviews-form-btn {
+        right: 30px;
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .reviews-form-btn {
+        right: 30px;
+    }
+
+    .slider-item {
+        min-width: 290px;
+    }
+
 }
