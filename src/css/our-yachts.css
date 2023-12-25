@@ -213,13 +213,13 @@
   }
 
   /* ANIMATION BUTTON */
-  .yaht-rental-link-button:focus {
+  .yaht-rental-link:focus {
     border: none;
     background-color: #fbfbfb;
     color: #1b414b;
   }
 
-  .yaht-rental-link-button {
+  .yaht-rental-link {
     position: relative;
     appearance: none;
     outline: none;
