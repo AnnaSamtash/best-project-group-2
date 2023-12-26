@@ -1,3 +1,8 @@
+.reviews-list {
+    display: none;
+}
+
+
 .reviews-title {
     text-align: center;
     margin-bottom: 25px;
@@ -82,12 +87,12 @@
         margin-bottom: 75px;
     }
 
-    .reviews-list {
+    /* .reviews-list {
         display: flex;
         gap: 32px;
         justify-content: center;
         flex-wrap: wrap;
-    }
+    } */
 
     .reviews-list-item {
         width: calc((100% - 32px) / 2);
