@@ -61,7 +61,20 @@
     background-color: transparent;
     line-height: 0;
     padding: 0;
+    transition: background-color 250ms linear;
+  }
+
+  .mob-menu-close-btn-icon {
     fill: #055545;
+    transition: fill 250ms linear;
+  }
+
+  .mob-menu-close-btn:active {
+    background-color: #055545;
+  }
+
+  .mob-menu-close-btn>mob-menu-close-btn-icon:active {
+    fill: #fbfbfb;
   }
 
   .mob-menu-navigation-list {
@@ -112,10 +125,12 @@
     height: 100%;
     fill: #fbfbfb;
   }
+
   .mob-menu-navigation-link:active {
     background-color: #fbfbfb;
     color: #1b414b;
   }
+
   .mob-menu-social-link:active {
     fill: #fbfbfbcc;
   }

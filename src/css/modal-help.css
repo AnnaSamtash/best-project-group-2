@@ -46,7 +46,7 @@
   background-color: #0e1823;
   padding: 80px 20px;
   width: 335px;
-  min-height: 732px;
+  height: 90%;
   transition: transform 250ms linear;
   box-sizing: border-box;
   border-radius: 24px;
@@ -194,6 +194,7 @@
   background-color: #fbfbfb;
   color: #1b414b;
 }
+
 
 @media screen and (min-width: 768px) {
   .modal-help-page-content {
