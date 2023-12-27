@@ -8,14 +8,14 @@
     height: 100%;
     background: #0e1823;
     opacity: 1;
-    visibility: visible;
     pointer-events: auto;
     transform: translateX(0%);
+    transition: transform 250ms linear;
   }
 
   .mob-menu-thumb.is-hidden {
     opacity: 0;
-    visibility: hidden;
+    transform: translateX(100%);
     pointer-events: none;
   }
 
